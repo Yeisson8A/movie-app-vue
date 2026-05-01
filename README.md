@@ -1,6 +1,6 @@
 # Movie App Vue
 
-Movie catalog project using Vue 3 (Composition API), TypeScript, Vuetify, and Pinia. The application uses the TMDB API and applies advanced design patterns to ensure testability and decoupling.
+Movie catalog project using Vue 3 (Composition API), TypeScript, Vuetify, and Pinia. The application uses the TMDB API and applies advanced design patterns to ensure testability and decoupling, including unit tests using Vitest for this funcionalities.
 
 <img width="1365" height="633" alt="image" src="https://github.com/user-attachments/assets/aa9e75c5-bec1-440d-82a0-3e69ab9adad5" />
 <img width="1365" height="631" alt="image" src="https://github.com/user-attachments/assets/03ad2c1c-b27c-4c85-8b23-c1f6ede8ce30" />
@@ -68,6 +68,18 @@ src/
 ## Environment
 
 - **VITE_TMDB_API_KEY**: API Key for `TheMovieDB API`
+
+## Build the image
+````
+docker-compose build
+````
+
+## Start container
+````
+docker-compose up -d
+````
+
+**Note**: Once the container has started, the application will be available at `http://localhost:8080`
 
 ## Install
 
