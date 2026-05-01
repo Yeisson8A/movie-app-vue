@@ -66,7 +66,7 @@
 </template>
 
 <script setup lang="ts">
-  import type { Movie } from '@/types/tmdb'
+  import type { Movie } from '@/types/movie'
   import { useFavoriteStore } from '@/store/favorites'
   import { movieService } from '../api/movieService'
 

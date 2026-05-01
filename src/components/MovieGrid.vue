@@ -39,7 +39,7 @@
 </template>
 
 <script setup lang="ts">
-  import type { Movie } from '@/types/tmdb'
+  import type { Movie } from '@/types/movie'
   import { useRouter } from 'vue-router'
   import MovieCard from './MovieCard.vue'
 

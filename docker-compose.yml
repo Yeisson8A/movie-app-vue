@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+
+  movie-app:
+    container_name: movie-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    restart: unless-stopped

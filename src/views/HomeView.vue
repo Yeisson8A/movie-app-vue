@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-  import type { Movie } from '@/types/tmdb'
+  import type { Movie } from '@/types/movie'
   import { onMounted, ref } from 'vue'
   import MovieGrid from '@/components/MovieGrid.vue'
   import SearchBar from '@/components/SearchBar.vue'

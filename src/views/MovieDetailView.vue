@@ -117,7 +117,7 @@
 </template>
 
 <script setup lang="ts">
-  import type { MovieDetail } from '@/types/tmdb'
+  import type { MovieDetail } from '@/types/movieDetail'
   import { onMounted, ref } from 'vue'
   import { useFavoriteStore } from '@/store/favorites'
   import { movieService } from '../api/movieService'
